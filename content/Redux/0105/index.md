@@ -19,7 +19,8 @@ action을 dispatch하면 reducer함수를 호출한다.
 reducer는 store에 가서 현재 state값을 가져와 새로운 state 객체를 만들고 기존에 존재하던 default state 객체를 `대체`한다
 
 ![redux1.png](redux1.png)
-
+<br/>
+![redux2.png](redux2.png)
 
 ## state
 > 기본 객체

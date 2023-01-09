@@ -8,4 +8,4 @@ categories: Error
 ---
 
 # 0109 test 
-0109 test..
+0109 test..npm install 에러 해결?

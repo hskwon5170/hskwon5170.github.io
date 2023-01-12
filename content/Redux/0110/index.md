@@ -1,6 +1,6 @@
 ---
 emoji: 📚
-title: Redux
+title: Redux로 todo-list 만들기
 date: '2023-01-10 09:18:00'
 author: 권형석
 tags: Redux frontend

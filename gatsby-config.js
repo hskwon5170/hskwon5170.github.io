@@ -23,6 +23,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
+        host: 'https://https://hskwon5170.github.io/',
+        sitemap: 'https://hskwon5170.github.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
         resolveEnv: () => NETLIFY_ENV,
         env: {
           production: {

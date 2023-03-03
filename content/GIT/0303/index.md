@@ -31,11 +31,12 @@ categories: git gitbranch gitflow
 
 > 이런 경우, 이전 그래프에서 에러가 발생했을 경우, 커밋을 잘 추적할 수 있을까?
 
-## Git Merge
+<hr/>
+## ✅ Git Merge
 
 Git Merge는 여러 branch들이 존재할 때, 하나의 branch로 통합시키는 개념이다.
 
-## Git Rebase
+## ✅ Git Rebase
 
 Git Rebase는 branch의 base를 재설정한다는 개념이다.
 
@@ -58,6 +59,11 @@ git commit
 git pull -r upstream '원격브랜치'
 git push 'origin 브랜치'
 pull request
+```
+
+```
+🧑‍🎓 git pull -r upstream '원격브랜치'란...
+push 이전에 다른 작업 결과물을 pull하면서 -r옵션(rebase)을 적용하는 방식
 ```
 
 #### reference

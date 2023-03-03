@@ -2,7 +2,7 @@ module.exports = {
   title: `hskwon5170.github.io`,
   description: `매일 배운 것들을 기록하는 공간입니다`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://hskwon5170.github.io`,
+  siteUrl: 'https://hskwon5170.github.io/',
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {

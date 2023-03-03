@@ -24,7 +24,7 @@ categories: style
 Tailwind CSS는 Utility-First 컨셉을 가진 CSS 프레임워크다. 부트스트랩과 비슷하게 `m-1`, `flex`와 같이 미리 세팅된 유틸리티 클래스를 활용하는 방식으로 HTML 코드 내에서 스타일링을 할 수 있다.
 
 ✍️ 예시로 똑같은 스타일을 `styled-components`와 `tailwind css`를 이용해서 적용해보면...
-![example1.png](example1.png)
+![why.png](why.png)
 
 ## 1.Styled-components
 
@@ -87,3 +87,32 @@ import * as S from 'styles.ts'
 border-radius가 `rounded`, flex-direction:column이 `flex-col` 등 기존과 상이한 클래스명이 존재한다. 따라서 Tailwind CSS가 제공하는 클래스를 학습해야 하고 익숙해져야 하지만, `Intelli Sense`플러그인이 제공되고 있어 익숙해지만 공식 문서 가이드 없이도 빠르게 스타일링할 수 있다.
 
 또한 이전에는 반응형 디자인을 위해 따로 media-query 파일을 생성하여 import 해와 사용했었는데, Tailwind CSS는 반응형 디자인을 위한 클래스명도 제공해준다고 한다. 따라서 현재 진행중인 프로젝트의 반응형 디자인을 Tailwind CSS를 이용해서 해볼 생각.
+
+![profile.png](profile.png)
+
+```
+   <div className="bg-black py-20 px-20 flex justify-center items-center">
+        <div className="bg-white overflow-hidden rounded-3xl shadow-3xl w-[330px]">
+          <div className="bg-gray-400 py-10">
+            <span className="text-white text-2xl ml-5">Profile</span>
+          </div>
+          <div className="rounded-3xl p-6 bg-white relative -top-5">
+            <div className="flex relative -top-16 items-end justify-between">
+              <div className="flex flex-col items-center">
+                <span className="text-sm text-gray-500">Orders</span>
+                <span className="font-medium">340</span>
+              </div>
+              <div className="h-24 w-24 bg-purple-500 rounded-full"></div>
+              <div className="flex flex-col items-center">
+                <span className="text-sm text-gray-500">Spent</span>
+                <span className="font-medium">$340</span>
+              </div>
+            </div>
+            <div className="flex flex-col items-center -mt-10 -mb-5">
+              <span className="text-lg font-medium">HYUNG SEOK</span>
+              <span className="text-sm text-gray-500">Mr.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+```

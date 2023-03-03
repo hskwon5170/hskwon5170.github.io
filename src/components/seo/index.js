@@ -58,7 +58,7 @@ function Seo({ description, title }) {
         },
         {
           name: 'google-site-verification',
-          content: 'google-site-verification: google0b565ec83fb146c4.html',
+          content: 'google0b565ec83fb146c4.html',
         },
       ]}
     />

@@ -53,7 +53,6 @@ export const SecondDiv = styled.div`
     font-weight:bold;
 `
 
-export const
 ```
 
 ```

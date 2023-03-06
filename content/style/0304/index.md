@@ -56,12 +56,16 @@ export const SecondDiv = styled.div`
 
 ## 2.Tailwind css
 
+<!-- ```
 ** tailwind css **
 
 <div className="rounded-xl border-solid border-black border-2 flex flex-col justify-center items-center w-fit bg-blue-400 p-3 text-white">
     <div className="font-bold text-[30px]">Hello World!</div>
     <div className="text-green-400 font-bold">Fun coding!</div>
 </div>
+``` -->
+
+![carbon6.png](carbon6.png)
 
 > 🎇 코드 분량이 줄어들었고, 변수명을 고민할 필요도 없었다. 또한, CSS 파일을 추가로 생성하지도 않았다!
 

@@ -111,16 +111,16 @@ comments: {
 
 ```js
 author: {
-    name: '정진혁',
+    name: '권형석',
     bio: {
       role: '개발자',
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: `zoomkoding.gif`,
     },
     social: {
-      github: 'https://github.com/zoomKoding',
-      linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
-      email: 'zoomkoding@gmail.com',
+      github: 'https://github.com/hskwon5179=0',
+      // linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
+      email: 'hskwon517@gmail.com',
     },
 },
 ```

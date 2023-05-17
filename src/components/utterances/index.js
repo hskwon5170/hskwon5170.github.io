@@ -23,7 +23,7 @@ function Utterances({ repo, path }) {
       crossorigin: 'anonymous',
     };
 
-    Object.keys(utterancesConfig).forEach((configKey) => {
+    Object.keys(utterancesConfig)?.forEach((configKey) => {
       utterances.setAttribute(configKey, utterancesConfig[configKey]);
     });
     rootElm.current.appendChild(utterances);

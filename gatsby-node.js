@@ -31,7 +31,7 @@ const createPostsPages = ({ createPage, results }) => {
 
   edges.forEach(({ node }) => {
     const postCategories = node.frontmatter?.categories?.split(' ');
-    postCategories.forEach((category) => categorySet.add(category));
+    postCategories && postCategories?.forEach((category) => categorySet.add(category));
   });
 
   const categories = [...categorySet];

@@ -1,6 +1,6 @@
 module.exports = {
-  title: `devhsblog.github.io`,
-  description: `줌코딩의 개발일기`,
+  title: `dev_note`,
+  description: `개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://devhsblog.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -14,7 +14,7 @@ module.exports = {
     name: `권형석`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['사람에 가치를 두는', '능동적으로 일하는', '어제보다 성장하는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {

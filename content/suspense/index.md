@@ -11,7 +11,7 @@ categories: react
 
 ![suspense.png](suspense.png)
 
-## React Suspense 란..
+## React Suspense 란...
 
 리액트의 `suspense`는 비동기적으로 `로딩`되는 컴포넌트를 처리할 수 있는 기능을 제공한다.
 Suspense는 아직 렌더링이 준비되지 않은 컴포넌트가 있을때 로딩 화면을 보여주고 로딩이 완료되면 해당 컴포넌트를 보여주는 `React에 내장`되어 있는 기능이다.

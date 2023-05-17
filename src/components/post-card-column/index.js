@@ -12,7 +12,7 @@ function PostCardColumn({ posts, showMoreButton, moreUrl }) {
   return (
     <div className="post-card-column-wrapper">
       <div className="post-card-column">
-        {posts.map((post, index) => (
+        {posts?.map((post, index) => (
           <PostCard key={index} post={post} />
         ))}
         {showMoreButton && (

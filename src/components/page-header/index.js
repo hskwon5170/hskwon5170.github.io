@@ -40,7 +40,7 @@ function PageHeader({ siteTitle }) {
                 posts
               </Link>
               <PostSearch
-                posts={data.allMarkdownRemark.edges.map(({ node }) => new Post(node, true))}
+                posts={data?.allMarkdownRemark?.edges?.map(({ node }) => new Post(node, true))}
               />
             </div>
           </div>

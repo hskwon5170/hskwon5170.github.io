@@ -9,7 +9,7 @@ function ProjectSection({ projects }) {
   return (
     <div className="project-section">
       <SectionHeader title="Projects" />
-      {projects.map((project, index) =>
+      {projects?.map((project, index) =>
         index === 0 ? null : (
           <div className="project" key={index}>
             <div className="head">
@@ -23,7 +23,7 @@ function ProjectSection({ projects }) {
 
               {project.techStack && (
                 <div className="tech-stack">
-                  {project.techStack.map((tech, index) => (
+                  {project?.techStack?.map((tech, index) => (
                     <div key={index} className="tech">
                       {tech}
                     </div>

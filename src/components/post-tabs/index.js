@@ -6,7 +6,7 @@ import './style.scss';
 function PostTabs({ tabIndex, onChange, tabs, posts, showMoreButton }) {
   const tabPosts = useMemo(() => {
     if (tabs[tabIndex] === 'All') return posts;
-    return posts.filter((post) => post?.categories?.includes(tabs[tabIndex]));
+    return posts?.filter((post) => post?.categories?.includes(tabs[tabIndex]));
   }, [posts, tabs, tabIndex]);
 
   return (
@@ -19,7 +19,7 @@ function PostTabs({ tabIndex, onChange, tabs, posts, showMoreButton }) {
           variant="scrollable"
           scrollButtons="desktop"
         >
-          {tabs.map((title, index) => (
+          {tabs?.map((title, index) => (
             <Tab label={title} key={index} />
           ))}
         </Tabs>

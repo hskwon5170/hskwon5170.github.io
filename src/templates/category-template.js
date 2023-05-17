@@ -14,7 +14,7 @@ function CategoryTemplate({ pageContext }) {
     () => categories.findIndex((category) => category === currentCategory),
     [categories, currentCategory],
   );
-  const posts = edges.map(({ node }) => new Post(node));
+  const posts = edges?.map(({ node }) => new Post(node));
 
   const onTabIndexChange = useCallback(
     (e, value) => {

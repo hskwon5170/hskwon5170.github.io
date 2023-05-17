@@ -9,7 +9,7 @@ function TimeStampSection({ timestamps }) {
     <div className="timestamp-section">
       <SectionHeader title="Timestamps" />
       <div className="body">
-        {timestamps.map((timestamp, index) =>
+        {timestamps?.map((timestamp, index) =>
           index === 0 ? null : (
             <div className="timestamp" key={index}>
               <div className="date">{timestamp.date}</div>

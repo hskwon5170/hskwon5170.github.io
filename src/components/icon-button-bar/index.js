@@ -35,7 +35,7 @@ function IconButtonBar({ links = {} }) {
 
   return (
     <>
-      {Object.keys(links).map((link, index) => {
+      {Object.keys(links)?.map((link, index) => {
         return (
           links[link] && (
             <Tooltip key={index} title={link} arrow className="icon-tooltip">

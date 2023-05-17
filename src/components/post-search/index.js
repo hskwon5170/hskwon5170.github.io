@@ -17,7 +17,7 @@ function PostSearch({ posts }) {
         }
       }}
       filterOptions={(options, { inputValue }) =>
-        options.filter(
+        options?.filter(
           ({ title, categories }) => title.includes(inputValue) || categories.includes(inputValue),
         )
       }

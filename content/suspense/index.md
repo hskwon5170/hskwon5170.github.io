@@ -1,13 +1,11 @@
-```
 ---
 emoji: 🧢
 title: React Suspense
 date: '2023-05-17 20:00:00'
 author: hs
 tags: react frontend suspense
-categories: react
+categories: 블로그 react
 ---
-```
 
 ![suspense.png](suspense.png)
 
